@@ -1,0 +1,49 @@
+[debug] [2018-06-05T23:06:00.264Z] ----------------------------------------------------------------------
+[debug] [2018-06-05T23:06:00.267Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\a2276496\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase deploy
+[debug] [2018-06-05T23:06:00.268Z] CLI Version:   3.18.5
+[debug] [2018-06-05T23:06:00.268Z] Platform:      win32
+[debug] [2018-06-05T23:06:00.268Z] Node Version:  v6.11.4
+[debug] [2018-06-05T23:06:00.270Z] Time:          Tue Jun 05 2018 18:06:00 GMT-0500 (Hora de verano central (México))
+[debug] [2018-06-05T23:06:00.270Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-06-05T23:06:00.296Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-06-05T23:06:00.297Z] > authorizing via signed-in user
+[debug] [2018-06-05T23:06:00.300Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-06-05T23:06:00.301Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/CaWm46mgs0rwcV0auQTpmqJzB3Xo3lKXlYKL4FGQjrQ',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Tue Jun 05 2018 18:06:00 GMT-0500 (Hora de verano central (México))
+[debug] [2018-06-05T23:06:01.180Z] <<< HTTP RESPONSE 200
+[debug] [2018-06-05T23:06:01.212Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/portafolio-rogerdavila  
+  
+ Tue Jun 05 2018 18:06:01 GMT-0500 (Hora de verano central (México))
+[info] 
+[warn] !  Your CLI authentication needs to be updated to take advantage of new features.
+[warn] !  Please run firebase login --reauth
+[info] 
+[debug] [2018-06-05T23:06:01.984Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase"]
+[debug] [2018-06-05T23:06:01.987Z] > authorizing via signed-in user
+[debug] [2018-06-05T23:06:01.987Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-06-05T23:06:01.988Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/CaWm46mgs0rwcV0auQTpmqJzB3Xo3lKXlYKL4FGQjrQ',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Tue Jun 05 2018 18:06:01 GMT-0500 (Hora de verano central (México))
+[debug] [2018-06-05T23:06:02.563Z] <<< HTTP RESPONSE 200
+[debug] [2018-06-05T23:06:02.629Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/portafolio-rogerdavila  
+  
+ Tue Jun 05 2018 18:06:02 GMT-0500 (Hora de verano central (México))
+[debug] [2018-06-05T23:06:02.920Z] Error: unable to get local issuer certificate
+    at Error (native)
+    at TLSSocket.<anonymous> (_tls_wrap.js:1092:38)
+    at emitNone (events.js:86:13)
+    at TLSSocket.emit (events.js:185:7)
+    at TLSSocket._finishInit (_tls_wrap.js:610:8)
+    at TLSWrap.ssl.onhandshakedone (_tls_wrap.js:440:38)
+[error] 
+[error] Error: Server Error. unable to get local issuer certificate
